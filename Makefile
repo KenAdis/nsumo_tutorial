@@ -1,12 +1,12 @@
 # Directories
-MSPGCC_ROOT_DIR = /home/user/Dev-Folder/tools/msp430-gcc
+MSPGCC_ROOT_DIR = /home/user/dev/tools/msp430-gcc
 MSPGCC_BIN_DIR = $(MSPGCC_ROOT_DIR)/bin
 MSPGCC_INCLUDE_DIR = $(MSPGCC_ROOT_DIR)/include
 LIB_DIRS = $(MSPGCC_INCLUDE_DIR)
 BUILD_DIR = build
 OBJ_DIR = $(BUILD_DIR)/obj
 BIN_DIR = $(BUILD_DIR)/bin
-TI_CCS_DIR = /home/user/Dev-Folder/tools/ccs2041/ccs
+TI_CCS_DIR = /home/user/dev/tools/ccs2041/ccs
 DEBUG_BIN_DIR = $(TI_CCS_DIR)/ccs_base/DebugServer/bin
 DEBUG_DRIVERS_DIR = $(TI_CCS_DIR)/ccs_base/DebugServer/drivers
 
